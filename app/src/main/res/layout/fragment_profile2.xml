@@ -3,7 +3,7 @@
     android:layout_width="290dp"
     android:background="#F3EFEF"
     android:orientation="vertical"
-    android:layout_marginLeft="13sp"
+    android:layout_marginLeft="10sp"
     android:layout_marginRight="10sp"
     android:layout_height="match_parent">
     <LinearLayout

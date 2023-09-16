@@ -4,9 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/tool_bar"/>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"

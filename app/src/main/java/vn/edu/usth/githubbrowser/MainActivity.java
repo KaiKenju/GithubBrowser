@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 
@@ -20,15 +21,12 @@ public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView mNavigationView;
     private ViewPager mViewPager;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Toolbar
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         // ánh xạ
         mViewPager = findViewById(R.id.view_pager);
@@ -62,26 +60,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.toolbar_menu, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch(item.getItemId()){
-            case R.id.new_group:
-                Toast.makeText(this, "You clicked here new group", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.web_whatsapp:
-                Toast.makeText(this, "You clicked here new web", Toast.LENGTH_SHORT).show();
-                break;
-            default:
-        }
-        return true;
-    }
-
+    // Vuốt
     private void setUpViewPager(){
 
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
@@ -104,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case  2:
                         mNavigationView.getMenu().findItem(R.id.action_explore).setChecked(true);
+                        break;
+                    case  3:
+                        mNavigationView.getMenu().findItem(R.id.action_profile).setChecked(true);
                         break;
                 }
 

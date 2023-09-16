@@ -10,7 +10,8 @@
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
         android:layout_height="wrap_content">
-        <include layout="@layout/fragment_profile2"/>
+
+        <include layout="@layout/fragment_profile2" />
         <include layout="@layout/fragment_profile3"/>
         <include layout="@layout/fragment_profile2"/>
     </LinearLayout>
