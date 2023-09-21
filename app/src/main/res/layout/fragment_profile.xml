@@ -19,6 +19,14 @@
             android:layout_marginBottom="10sp"
             android:src="@drawable/profile_pro" />
 
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_5"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="340dp"/>
+
         <TextView
             android:id="@+id/jojotext"
             android:layout_toRightOf="@id/jojo"
@@ -92,14 +100,20 @@
                 android:padding="5sp"
                 android:src="@drawable/repository" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_repositories_profile"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10sp"
-                android:text="Repository"
+                android:background="@drawable/btn_2"
+                android:textAllCaps="false"
+                android:text="Repositories"
+                android:gravity="left"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="20dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -120,14 +134,20 @@
                 android:background="#CAB819"
                 android:padding="5sp"
                 android:src="@drawable/star" />
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_stared_profile"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10sp"
+                android:background="@drawable/btn_2"
+                android:textAllCaps="false"
                 android:text="Stared"
+                android:gravity="left"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="20dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_below="@id/l2"
@@ -146,14 +166,20 @@
                 android:background="#FF9800"
                 android:padding="5sp"
                 android:src="@drawable/organization" />
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_organizations_profile"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10sp"
+                android:background="@drawable/btn_2"
+                android:textAllCaps="false"
                 android:text="Organizations"
+                android:gravity="left"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="20dp"/>
         </LinearLayout>
     </RelativeLayout>
 

@@ -43,7 +43,7 @@
             android:background="@drawable/btn_1"
             android:text="Sign in with Github"
             android:textAllCaps="false"
-            android:textSize="15dp"
+            android:textSize="16sp"
             android:textColor="@color/white" />
 
         <TextView
@@ -61,11 +61,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:text="Sign in with Github Enterprise Server"
+            android:text="Sign in with Github Enterprise"
             android:background="@drawable/btn_2"
             android:textAllCaps="false"
-            android:textSize="15dp"
-            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textColor="#212529"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="5dp" />
 
