@@ -9,8 +9,8 @@
 |  Nguyễn Tuấn Anh   | BA11-007 |                    |
 | Đinh Văn Hiệp      | BA11-041 |                    | 
 | Nguyễn Trường Khải | BA11-054 |                    |
-| Nguyễn Hữu Đức     | BA11-021 |                    |
-| Nguyễn Sơn Tùng    | BI12-022 |                    |
+| Nguyễn Hữu Đức     | BA11-025 |                    |
+| Nguyễn Sơn Tùng    | BI12-099 |                    |
 
 
 ## Features
@@ -35,8 +35,7 @@ In order for the members not to create many structurally different pieces of cod
 ## Step 1: Clone this repository:
 
 ```
-[git clone https://github.com/KaiKenju/ProjectG7-Topic24.git
-cd ProjectG7-Topic24](https://github.com/KaiKenju/ProjectGithub)
+git clone https://github.com/KaiKenju/GithubBrowser
 ```
 
 ## Step 2: Run the app:
@@ -44,5 +43,11 @@ cd ProjectG7-Topic24](https://github.com/KaiKenju/ProjectGithub)
 
 UI based on
 ## Warning
-this is not
+Before you run the app, you need to change plugin following the step (depending on the SDk and Android Gradle Plugin Version)
+
+![Setting](https://github.com/KaiKenju/GithubBrowser/assets/94727276/95e1636b-4d56-40af-b5c2-253c57f106c0)
+
+![Plugin](https://github.com/KaiKenju/GithubBrowser/assets/94727276/8b095eaf-fe66-4c9f-bc42-34f02fb32441)
+
+
 
