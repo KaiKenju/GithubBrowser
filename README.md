@@ -39,9 +39,12 @@ git clone https://github.com/KaiKenju/GithubBrowser
 ```
 
 ## Step 2: Run the app:
+```
+After you  clone, you need to accept the SDK in your local machine
+```
 # 🔖 Legal 
 
-UI based on
+UI based on the real Github
 ## Warning
 Before you run the app, you need to change plugin following the step (depending on the SDk and Android Gradle Plugin Version)
 
