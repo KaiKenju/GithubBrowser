@@ -18,15 +18,15 @@ public class ProfileFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
 
-        Button setting = view.findViewById(R.id.btn_setting);
-
-        setting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent btnOrganizationsProfile = new Intent(getActivity(), SettingsFragment.class);
-                startActivity(btnOrganizationsProfile);
-            }
-        });
+//        Button setting = view.findViewById(R.id.btn_setting);
+//
+//        setting.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent btnOrganizationsProfile = new Intent(getActivity(), SettingsFragment.class);
+//                startActivity(btnOrganizationsProfile);
+//            }
+//        });
 
         return view;
     }

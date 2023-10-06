@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790338939748",
+    "project_id": "githubproject-affb9",
+    "storage_bucket": "githubproject-affb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790338939748:android:6faf33e8c14e016deb2871",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.githubbrowser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBKCpntesq9WNaZUB_3XVmU00Vr9S7Zhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

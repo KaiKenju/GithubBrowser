@@ -14,7 +14,6 @@ import androidx.fragment.app.Fragment;
 
 public class HomeFragment extends Fragment {
 
-    Button btnIssues, btnPullRequests, btnDiscussion, btnProject, btnRepositories, btnOrganizations, btnStared;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -24,7 +23,7 @@ public class HomeFragment extends Fragment {
         Button pullRequests = view.findViewById(R.id.btn_pull_requests);
         Button discussion = view.findViewById(R.id.btn_discussion);
         Button project = view.findViewById(R.id.btn_project);
-        Button repositories = view.findViewById(R.id.btn_repositories);
+        Button repo = view.findViewById(R.id.btn_repositories);
         Button organizations = view.findViewById(R.id.btn_organizations);
         Button stared = view.findViewById(R.id.btn_stared);
 
@@ -60,10 +59,10 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        repositories.setOnClickListener(new View.OnClickListener() {
+        repo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnRepositories = new Intent(getActivity(), IssueFragment.class);
+                Intent btnRepositories = new Intent(getContext(), ApiActivity.class);
                 startActivity(btnRepositories);
             }
         });
